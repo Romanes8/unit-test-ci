@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "author": "Rysaev Damir <freepad@ya.ru>",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
