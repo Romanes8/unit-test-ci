@@ -1,3 +1,4 @@
+// Функция определения состояния здровья:
 export function getStatus(character) {
     if (character.health > 50) {
         return 'healthy';
@@ -8,6 +9,4 @@ export function getStatus(character) {
     }
 }
 
-// Пример использования:
-const hero = {name: 'Маг', health: 10};
-console.log(getStatus(hero)); // healthy
+
